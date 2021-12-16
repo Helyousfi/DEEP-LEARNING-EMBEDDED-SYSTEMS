@@ -1,9 +1,8 @@
 /*******************************************************
 Nom ......... : main.c
-Role ........ : Programme principal executant la lecture
-                d'une image bitmap
-Auteur ...... : Frédéric CHATRIE
-Version ..... : V1.1 du 1/2/2021
+Role ........ : Programme principal
+Auteur ...... : Hamza EL Yousfi & Souhayl Aharam
+Version ..... : V1.1 du 16/12/2021
 Licence ..... : /
 
 Compilation :
@@ -15,7 +14,7 @@ Pour exécuter, tapez : ./all
 #include <stdio.h>
 #include <stdlib.h>
 #include "Bmp2Matrix.h"
-#include "index.h"
+#include "utils.h"
 
 int main(int argc, char* argv[]){
     BMP bitmap;
